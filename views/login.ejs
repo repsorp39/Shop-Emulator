@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Emulator</title>
+    <script src="./scripts/userLogin.js" type="module" defer></script>  
+
+</head>
+<body>
+    <%-include("./partials/header.ejs") %>
+
+    <section class="form-sec">
+        <h2>Log in</h2>
+        <form>
+            <p class="error"></p>
+            <div>
+                <label for="pseudo">Pseudo:</label>
+                <input type="text" id="pseudo">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+            </div>
+
+            <button type="submit">
+                Sign in
+                <img src="./assets/images/loader.gif" class="d-none" alt="loader">
+            </button>
+            <p>Don't have account ? <a href="/signup">Sign up</a> </p>
+        </form>
+
+    </section>
+</body>
+</html>

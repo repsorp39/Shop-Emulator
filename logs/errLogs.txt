@@ -1,0 +1,1400 @@
+15/08/2024  03:08:14	ReferenceError:	a is not defined
+
+15/08/2024  03:08:15	ReferenceError:	a is not defined
+
+15/08/2024  03:08:15	ReferenceError:	a is not defined
+
+15/08/2024  03:08:16	ReferenceError:	a is not defined
+
+15/08/2024  03:15:30	TypeError:	View is not a constructor
+
+15/08/2024  03:15:31	TypeError:	View is not a constructor
+
+15/08/2024  03:15:31	TypeError:	View is not a constructor
+
+15/08/2024  03:41:12	ReferenceError:	message is not defined
+
+15/08/2024  03:44:29	ReferenceError:	message is not defined
+
+15/08/2024  03:44:51	ReferenceError:	message is not defined
+
+15/08/2024  03:45:17	ReferenceError:	message is not defined
+
+15/08/2024  03:45:40	ReferenceError:	message is not defined
+
+15/08/2024  03:46:23	ReferenceError:	message is not defined
+
+15/08/2024  03:46:24	ReferenceError:	message is not defined
+
+15/08/2024  03:46:49	ReferenceError:	message is not defined
+
+15/08/2024  03:46:50	ReferenceError:	message is not defined
+
+15/08/2024  03:53:15	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:15	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:15	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:15	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:15	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:15	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:16	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:16	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:16	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:16	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:53:16	TypeError:	Cannot create property '_locals' on string 'some tests'
+
+15/08/2024  03:55:46	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/error.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <p> <%=error%>
+    10|     </p>
+    11| </body>
+    12| </html>
+
+error is not defined
+
+15/08/2024  03:57:36	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/error.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <p> <%=error%>
+    10|     </p>
+    11| </body>
+    12| </html>
+
+error is not defined
+
+15/08/2024  03:58:24	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/error.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <p> <%=error%>
+    10|     </p>
+    11| </body>
+    12| </html>
+
+error is not defined
+
+15/08/2024  03:58:25	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/error.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <p> <%=error%>
+    10|     </p>
+    11| </body>
+    12| </html>
+
+error is not defined
+
+15/08/2024  03:58:51	ReferenceError:	p is not defined
+
+15/08/2024  03:59:14	ReferenceError:	p is not defined
+
+15/08/2024  04:00:04	ReferenceError:	p is not defined
+
+15/08/2024  04:00:21	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/error.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <p> <%=error%>
+    10|     </p>
+    11| </body>
+    12| </html>
+
+error is not defined
+
+15/08/2024  04:00:57	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/error.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <p> <%=error%>
+    10|     </p>
+    11| </body>
+    12| </html>
+
+error is not defined
+
+15/08/2024  04:00:58	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/error.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <p> <%=error%>
+    10|     </p>
+    11| </body>
+    12| </html>
+
+error is not defined
+
+15/08/2024  04:01:11	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/error.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <p> <%=error%>
+    10|     </p>
+    11| </body>
+    12| </html>
+
+error is not defined
+
+15/08/2024  04:01:31	ReferenceError:	p is not defined
+
+15/08/2024  04:01:31	ReferenceError:	p is not defined
+
+15/08/2024  04:01:31	ReferenceError:	p is not defined
+
+15/08/2024  04:03:38	ReferenceError:	p is not defined
+
+15/08/2024  04:03:50	ReferenceError:	p is not defined
+
+15/08/2024  04:03:58	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/error.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <h1> <%=nameError%> :</h1>
+    10|     <p> <%= message%> </p>
+    11| </body>
+    12| </html>
+
+nameError is not defined
+
+15/08/2024  04:04:06	ReferenceError:	p is not defined
+
+15/08/2024  06:38:56	Error:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:11
+    9| <body>
+    10|     <h1>Here is an ejs app!</h1>
+ >> 11|     <%-include("./views/partials/header.ejs") %>
+    12| </body>
+    13| </html>
+
+Could not find the include file "./views/partials/header.ejs"
+
+15/08/2024  06:38:57	Error:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:11
+    9| <body>
+    10|     <h1>Here is an ejs app!</h1>
+ >> 11|     <%-include("./views/partials/header.ejs") %>
+    12| </body>
+    13| </html>
+
+Could not find the include file "./views/partials/header.ejs"
+
+15/08/2024  06:38:57	Error:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:11
+    9| <body>
+    10|     <h1>Here is an ejs app!</h1>
+ >> 11|     <%-include("./views/partials/header.ejs") %>
+    12| </body>
+    13| </html>
+
+Could not find the include file "./views/partials/header.ejs"
+
+15/08/2024  06:38:57	Error:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:11
+    9| <body>
+    10|     <h1>Here is an ejs app!</h1>
+ >> 11|     <%-include("./views/partials/header.ejs") %>
+    12| </body>
+    13| </html>
+
+Could not find the include file "./views/partials/header.ejs"
+
+15/08/2024  06:38:57	Error:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:11
+    9| <body>
+    10|     <h1>Here is an ejs app!</h1>
+ >> 11|     <%-include("./views/partials/header.ejs") %>
+    12| </body>
+    13| </html>
+
+Could not find the include file "./views/partials/header.ejs"
+
+15/08/2024  06:38:57	Error:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:11
+    9| <body>
+    10|     <h1>Here is an ejs app!</h1>
+ >> 11|     <%-include("./views/partials/header.ejs") %>
+    12| </body>
+    13| </html>
+
+Could not find the include file "./views/partials/header.ejs"
+
+15/08/2024  06:38:57	Error:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:11
+    9| <body>
+    10|     <h1>Here is an ejs app!</h1>
+ >> 11|     <%-include("./views/partials/header.ejs") %>
+    12| </body>
+    13| </html>
+
+Could not find the include file "./views/partials/header.ejs"
+
+15/08/2024  06:39:10	Error:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:11
+    9| <body>
+    10|     <h1>Here is an ejs app!</h1>
+ >> 11|     <%-include("/views/partials/header.ejs") %>
+    12| </body>
+    13| </html>
+
+ENOENT: no such file or directory, open '/views/partials/header.ejs'
+
+15/08/2024  08:10:57	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <div class="user-info"> <span> Welcome <%= name%>! <i class="bi bi-emoji-heart-eyes-fill"></i></span> <strong></strong> </div>
+    14|         <nav> 
+    15|             <ul>
+    16|                 <li><a href="#">Products</a></li>
+
+name is not defined
+
+15/08/2024  08:12:17	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <div class="user-info"> <span> Welcome <%= name%>! <i class="bi bi-emoji-heart-eyes-fill"></i></span> <strong></strong> </div>
+    14|         <nav> 
+    15|             <ul>
+    16|                 <li><a href="#">Products</a></li>
+
+name is not defined
+
+15/08/2024  08:12:55	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <div class="user-info"> <span> Welcome <%= name%>! <i class="bi bi-emoji-heart-eyes-fill"></i></span> <strong></strong> </div>
+    14|         <nav> 
+    15|             <ul>
+    16|                 <li><a href="#">Products</a></li>
+
+name is not defined
+
+15/08/2024  08:12:58	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <div class="user-info"> <span> Welcome <%= name%>! <i class="bi bi-emoji-heart-eyes-fill"></i></span> <strong></strong> </div>
+    14|         <nav> 
+    15|             <ul>
+    16|                 <li><a href="#">Products</a></li>
+
+name is not defined
+
+15/08/2024  08:15:30	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></span> <strong></strong> </div>
+    15| 
+    16|         <% }%>
+
+username is not defined
+
+15/08/2024  08:15:33	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></span> <strong></strong> </div>
+    15| 
+    16|         <% }%>
+
+username is not defined
+
+15/08/2024  08:15:38	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></span> <strong></strong> </div>
+    15| 
+    16|         <% }%>
+
+username is not defined
+
+15/08/2024  08:15:47	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome <%=  %> <i class="bi bi-emoji-heart-eyes-fill"></i></span> <strong></strong> </div>
+    15| 
+    16|         <% }%>
+
+username is not defined
+
+15/08/2024  08:17:41	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></div>
+    15|         <% }%>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  08:17:41	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></div>
+    15|         <% }%>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  08:17:42	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></div>
+    15|         <% }%>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  08:17:49	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></div>
+    15|         <% }%>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  08:18:11	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome  <i class="bi bi-emoji-heart-eyes-fill"></i></div>
+    15|         <% }%>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  08:18:12	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome  <i class="bi bi-emoji-heart-eyes-fill"></i></div>
+    15|         <% }%>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  08:18:12	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome  <i class="bi bi-emoji-heart-eyes-fill"></i></div>
+    15|         <% }%>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  08:18:13	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12| 
+ >> 13|         <% if(username){ %>
+    14|             <div class="user-info"> <span> Welcome  <i class="bi bi-emoji-heart-eyes-fill"></i></div>
+    15|         <% }%>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  08:22:01	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:12
+    10|     <header>
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 12|         <% if (username) { %>
+    13| 
+    14|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    15| 
+
+username is not defined
+
+15/08/2024  08:22:13	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:12
+    10|     <header>
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 12|         <% if (username) { %>
+    13| 
+    14| 
+    15| 
+
+username is not defined
+
+15/08/2024  08:22:40	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:12
+    10|     <header>
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 12|         <% if (!username) { %>
+    13| 
+    14| 
+    15| 
+
+username is not defined
+
+15/08/2024  08:23:32	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:12
+    10|     <header>
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 12|         <% if (username) { %>
+    13|          <% } %>
+    14|         <nav> 
+    15|             <ul>
+
+username is not defined
+
+15/08/2024  08:28:52	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12|         <% if (isLogin) { %>
+ >> 13|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    14| 
+    15|          <% } %>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  08:29:47	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12|         <% if (isLogin) { %>
+ >> 13|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    14| 
+    15|          <% } %>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  09:19:20	ValidationError:	User validation failed: password: Path `password` is required.
+
+15/08/2024  09:22:10	ValidationError:	User validation failed: name: Error, expected `name` to be unique. Value: `Prosper19`
+
+15/08/2024  09:29:40	ValidationError:	User validation failed: name: Error, expected `name` to be unique. Value: `Prosper19`
+
+15/08/2024  09:30:21	ValidationError:	User validation failed: name: Error, expected `name` to be unique. Value: `Prosper19`
+
+15/08/2024  10:13:05	Error:	secretOrPrivateKey must have a value
+
+15/08/2024  10:13:40	Error:	secretOrPrivateKey must have a value
+
+15/08/2024  10:14:28	Error:	secretOrPrivateKey must have a value
+
+15/08/2024  10:15:04	Error:	secretOrPrivateKey must have a value
+
+15/08/2024  10:16:05	Error:	secretOrPrivateKey must have a value
+
+15/08/2024  11:22:03	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:12
+    10|     <header>
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 12|         <% if (isLogin) { %>
+    13|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    14| 
+    15|          <% } %>
+
+isLogin is not defined
+
+15/08/2024  11:24:01	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:24
+    22|         </nav>
+    23|         <div>
+ >> 24|             <% if (isLogin) { %>
+    25|                 <button class="logout">Log out</button>
+    26|             <% } else {
+    27|             %>
+
+isLogin is not defined
+
+15/08/2024  11:25:37	SyntaxError:	Expected ',' or '}' after property value in JSON at position 28
+
+15/08/2024  11:26:16	MongoServerError:	E11000 duplicate key error collection: shop.users index: name_1 dup key: { name: null }
+
+15/08/2024  11:26:48	MongoServerError:	E11000 duplicate key error collection: shop.users index: name_1 dup key: { name: null }
+
+15/08/2024  11:31:37	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:13
+    11|         <div> <img src="./assets/images/shop.jpg" > </div>
+    12|         <% if (Object.keys(user).length !== 0) { %>
+ >> 13|             <div class="user-info"> <span> Welcome <%= username %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    14| 
+    15|          <% } %>
+    16|         <nav> 
+
+username is not defined
+
+15/08/2024  11:35:00	TypeError:	Cannot read properties of undefined (reading 'startsWith')
+
+15/08/2024  11:35:01	TypeError:	Cannot read properties of undefined (reading 'startsWith')
+
+15/08/2024  11:35:02	TypeError:	Cannot read properties of undefined (reading 'startsWith')
+
+15/08/2024  11:35:03	TypeError:	Cannot read properties of undefined (reading 'startsWith')
+
+15/08/2024  11:35:03	TypeError:	Cannot read properties of undefined (reading 'startsWith')
+
+15/08/2024  11:35:04	TypeError:	Cannot read properties of undefined (reading 'startsWith')
+
+15/08/2024  11:40:02	SyntaxError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+Unexpected token '{' in /home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+15/08/2024  11:40:05	SyntaxError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+Unexpected token '{' in /home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+15/08/2024  11:42:32	TypeError:	Spread syntax requires ...iterable[Symbol.iterator] to be a function
+
+15/08/2024  11:50:00	TypeError:	Cannot read properties of null (reading '_id')
+
+15/08/2024  11:54:49	SyntaxError:	Expected property name or '}' in JSON at position 1
+
+15/08/2024  11:55:13	SyntaxError:	Expected property name or '}' in JSON at position 1
+
+16/08/2024  10:04:42	SyntaxError:	Expected double-quoted property name in JSON at position 26
+
+16/08/2024  10:32:22	Error:	data and hash must be strings
+
+16/08/2024  10:32:28	Error:	data and hash must be strings
+
+16/08/2024  10:32:34	Error:	data and hash must be strings
+
+16/08/2024  10:32:35	Error:	data and hash must be strings
+
+16/08/2024  10:32:35	Error:	data and hash must be strings
+
+16/08/2024  10:32:35	Error:	data and hash must be strings
+
+16/08/2024  10:32:35	Error:	data and hash must be strings
+
+16/08/2024  10:32:35	Error:	data and hash must be strings
+
+16/08/2024  10:32:36	Error:	data and hash must be strings
+
+16/08/2024  10:32:36	Error:	data and hash must be strings
+
+16/08/2024  10:32:36	Error:	data and hash must be strings
+
+16/08/2024  10:32:36	Error:	data and hash must be strings
+
+16/08/2024  10:32:37	Error:	data and hash must be strings
+
+16/08/2024  10:32:37	Error:	data and hash must be strings
+
+16/08/2024  10:33:08	Error:	data and hash must be strings
+
+16/08/2024  10:33:27	Error:	data and hash must be strings
+
+16/08/2024  10:33:34	Error:	data and hash must be strings
+
+16/08/2024  10:34:12	Error:	data and hash must be strings
+
+16/08/2024  10:34:53	Error:	data and hash must be strings
+
+16/08/2024  10:53:57	Error:	Failed to lookup view "/login" in views directory "views"
+
+16/08/2024  10:54:13	Error:	Failed to lookup view "/login" in views directory "views"
+
+16/08/2024  10:54:14	Error:	Failed to lookup view "/login" in views directory "views"
+
+16/08/2024  10:54:20	Error:	Failed to lookup view "/login" in views directory "views"
+
+16/08/2024  11:23:04	Error:	Failed to lookup view "signup" in views directory "views"
+
+16/08/2024  11:36:06	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/login.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| 
+    12|     <section class="form-sec">
+    13|         <h2>Log in</h2>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:25
+    23|         </nav>
+    24|         <div>
+ >> 25|             <% if (Object.keys(user).length !== 0) { %>
+    26|                 <button class="logout">Log out</button>
+    27|             <% } else {
+    28|                 if(window.location.pathname.startsWith("/signup")) {
+
+window is not defined
+
+16/08/2024  11:38:05	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/login.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| 
+    12|     <section class="form-sec">
+    13|         <h2>Log in</h2>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:25
+    23|         </nav>
+    24|         <div>
+ >> 25|             <% if (Object.keys(user).length !== 0) { %>
+    26|                 <button class="logout">Log out</button>
+    27|             <% } else {
+    28|                 if(window.location.pathname.startsWith("/signup")) {
+
+window is not defined
+
+16/08/2024  11:38:51	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| </body>
+    12| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:25
+    23|         </nav>
+    24|         <div>
+ >> 25|             <% if (Object.keys(user).length !== 0) { %>
+    26|                 <button class="logout">Log out</button>
+    27|             <% } else {
+    28|                 if(window.location.pathname.startsWith("/signup")) {
+
+window is not defined
+
+16/08/2024  11:38:54	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/login.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| 
+    12|     <section class="form-sec">
+    13|         <h2>Log in</h2>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:25
+    23|         </nav>
+    24|         <div>
+ >> 25|             <% if (Object.keys(user).length !== 0) { %>
+    26|                 <button class="logout">Log out</button>
+    27|             <% } else {
+    28|                 if(window.location.pathname.startsWith("/signup")) {
+
+window is not defined
+
+16/08/2024  11:39:16	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/login.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| 
+    12|     <section class="form-sec">
+    13|         <h2>Log in</h2>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:25
+    23|         </nav>
+    24|         <div>
+ >> 25|             <% if (Object.keys(user).length !== 0) { %>
+    26|                 <button class="logout">Log out</button>
+    27|             <% } else {
+    28|                 if(window.location.pathname.startsWith("/signup")) {
+
+window is not defined
+
+16/08/2024  11:43:38	TypeError:	/home/prosper/Développement Web/Shop__emulator/views/login.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| 
+    12|     <section class="form-sec">
+    13|         <h2>Log in</h2>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:25
+    23|         </nav>
+    24|         <div>
+ >> 25|             <% if (Object.keys(user).length !== 0) { %>
+    26|                 <button class="logout">Log out</button>
+    27|             <% } else {
+    28|                 if(user.location.startsWith("/login")) {
+
+Cannot read properties of undefined (reading 'startsWith')
+
+16/08/2024  11:45:30	TypeError:	/home/prosper/Développement Web/Shop__emulator/views/login.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| 
+    12|     <section class="form-sec">
+    13|         <h2>Log in</h2>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:25
+    23|         </nav>
+    24|         <div>
+ >> 25|             <% if (Object.keys(user).length !== 0) { %>
+    26|                 <button class="logout">Log out</button>
+    27|             <% } else {
+    28|                 if(user.location.includes("/login")) {
+
+Cannot read properties of undefined (reading 'includes')
+
+16/08/2024  11:45:31	TypeError:	/home/prosper/Développement Web/Shop__emulator/views/login.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| 
+    12|     <section class="form-sec">
+    13|         <h2>Log in</h2>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:25
+    23|         </nav>
+    24|         <div>
+ >> 25|             <% if (Object.keys(user).length !== 0) { %>
+    26|                 <button class="logout">Log out</button>
+    27|             <% } else {
+    28|                 if(user.location.includes("/login")) {
+
+Cannot read properties of undefined (reading 'includes')
+
+16/08/2024  11:45:37	TypeError:	/home/prosper/Développement Web/Shop__emulator/views/signup.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| 
+    12|     <section class="form-sec">
+    13|         <h2>Register</h2>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:25
+    23|         </nav>
+    24|         <div>
+ >> 25|             <% if (Object.keys(user).length !== 0) { %>
+    26|                 <button class="logout">Log out</button>
+    27|             <% } else {
+    28|                 if(user.location.includes("/login")) {
+
+Cannot read properties of undefined (reading 'includes')
+
+16/08/2024  11:47:33	Error:	/home/prosper/Développement Web/Shop__emulator/views/signup.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%-include("./partials/header.ejs") %>
+    11| 
+    12|     <section class="form-sec">
+    13|         <h2>Register</h2>
+
+Could not find matching close tag for "<%=".
+
+16/08/2024  03:00:55	RangeError:	Invalid status code: { user: [Object] }
+
+16/08/2024  03:57:04	ReferenceError:	accessToken is not defined
+
+16/08/2024  03:57:18	ReferenceError:	accessToken is not defined
+
+16/08/2024  03:57:20	ReferenceError:	accessToken is not defined
+
+16/08/2024  05:20:41	TypeError:	Assignment to constant variable.
+
+16/08/2024  05:20:42	TypeError:	Assignment to constant variable.
+
+16/08/2024  05:20:42	TypeError:	Assignment to constant variable.
+
+16/08/2024  05:30:14	Error:	Could not find matching close tag for "<%-".
+
+16/08/2024  05:30:31	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:13
+    11| 
+    12|     <!--Admin nav control -->
+ >> 13|     <% if(isAdmin){ %>
+    14|             <%-include ("./partials/adminNavBar.ejs")%>
+    15|     <%} %>
+    16| </body>
+
+isAdmin is not defined
+
+16/08/2024  08:10:19	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/new-product.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <%-include('./partials/header.ejs')%>
+    10| </body>
+    11| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:11
+    9|     <header>
+    10|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 11|         <% if(user.pseudo) {  %>    
+    12|             <div class="user-info"> <span> Welcome <%= user.pseudo %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    13|          <% } %>
+    14|         <nav> 
+
+user is not defined
+
+16/08/2024  10:15:26	Error:	ENOENT: no such file or directory, open '/home/prosper/Développement Web/Shop__emulator/public/data/products/Fri Aug 16 2024 22:15:26 GMT+0100 (West Africa Standard Time)_forest-3840x2160-mountains-26120.jpg'
+
+16/08/2024  10:16:10	ReferenceError:	prix is not defined
+
+16/08/2024  10:18:44	ValidationError:	Product validation failed: nom: Path `nom` is required.
+
+17/08/2024  10:05:08	ValidationError:	Product validation failed: categorie: Path `categorie` is required.
+
+17/08/2024  10:07:15	ValidationError:	Product validation failed: categorie: Path `categorie` is required.
+
+17/08/2024  10:50:11	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/manage-user.ejs:9
+    7| </head>
+    8| <body>
+ >> 9|     <%- include("./partials/header.ejs")%>
+    10| </body>
+    11| </html>
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:11
+    9|     <header>
+    10|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 11|         <% if(user.pseudo) {  %>    
+    12|             <div class="user-info"> <span> Welcome <%= user.pseudo %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    13|          <% } %>
+    14|         <nav> 
+
+user is not defined
+
+17/08/2024  11:09:30	SyntaxError:	Unexpected token ')' in /home/prosper/Développement Web/Shop__emulator/views/manage-user.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+17/08/2024  11:10:48	SyntaxError:	Malformed arrow function parameter list in /home/prosper/Développement Web/Shop__emulator/views/manage-user.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+17/08/2024  11:11:59	SyntaxError:	Unexpected token '=' in /home/prosper/Développement Web/Shop__emulator/views/manage-user.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+17/08/2024  11:20:15	SyntaxError:	missing ) after argument list in /home/prosper/Développement Web/Shop__emulator/views/manage-user.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+17/08/2024  05:41:20	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/products.ejs:22
+    20|             <th>Delete user</th>
+    21|         </tr>
+ >> 22|         <% registeredUsers.forEach ((user) =>{ %>
+    23|            <tr>
+    24|                 <td> <%= user.pseudo %> </td>
+    25|                 <td> <a href="/deluser/<%= user._id %>"><i class="bi bi-trash"></i></a> </td>
+
+registeredUsers is not defined
+
+17/08/2024  05:58:06	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/products.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%- include("./partials/header.ejs")%>
+    11|     <% if(user.isAdmin){%>
+    12|         <%- include ("./partials/adminNavBar.ejs") %>
+    13| 
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:11
+    9|     <header>
+    10|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 11|         <% if(user.pseudo) {  %>    
+    12|             <div class="user-info"> <span> Welcome <%= user.pseudo %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    13|          <% } %>
+    14|         <nav> 
+
+user is not defined
+
+17/08/2024  05:58:07	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/products.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%- include("./partials/header.ejs")%>
+    11|     <% if(user.isAdmin){%>
+    12|         <%- include ("./partials/adminNavBar.ejs") %>
+    13| 
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:11
+    9|     <header>
+    10|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 11|         <% if(user.pseudo) {  %>    
+    12|             <div class="user-info"> <span> Welcome <%= user.pseudo %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    13|          <% } %>
+    14|         <nav> 
+
+user is not defined
+
+17/08/2024  05:58:37	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/products.ejs:10
+    8| </head>
+    9| <body>
+ >> 10|     <%- include("./partials/header.ejs")%>
+    11|     <% if(user.isAdmin){%>
+    12|         <%- include ("./partials/adminNavBar.ejs") %>
+    13| 
+
+/home/prosper/Développement Web/Shop__emulator/views/partials/header.ejs:11
+    9|     <header>
+    10|         <div> <img src="./assets/images/shop.jpg" > </div>
+ >> 11|         <% if(user.pseudo) {  %>    
+    12|             <div class="user-info"> <span> Welcome <%= user.pseudo %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+    13|          <% } %>
+    14|         <nav> 
+
+user is not defined
+
+17/08/2024  07:25:21	Error:	Could not find matching close tag for "<%=".
+
+18/08/2024  06:48:20	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:48:30	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:48:40	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:48:48	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:48:49	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:49:07	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:49:57	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:51:05	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:51:36	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo.name){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:51:36	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo.name){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:51:36	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo.name){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:51:37	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo.name){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:51:37	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo.name){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:51:44	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:57:52	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo.name){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  06:57:57	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/index.ejs:24
+    22|         </section>
+    23| 
+ >> 24|         <% if(queryInfo.name){
+    25|             if(queryInfo.success){ %>
+    26|                 <h2> Research results for "<%=queryInfo.name%>"</h2>
+    27|                 <h3> <%=queryInfo.resultsNumber%> results matching </h3>
+
+queryInfo is not defined
+
+18/08/2024  08:35:14	SyntaxError:	Unexpected token 'else' in /home/prosper/Développement Web/Shop__emulator/views/new-product.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+18/08/2024  08:35:14	SyntaxError:	Unexpected token 'else' in /home/prosper/Développement Web/Shop__emulator/views/new-product.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+18/08/2024  08:35:15	SyntaxError:	Unexpected token 'else' in /home/prosper/Développement Web/Shop__emulator/views/new-product.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+18/08/2024  08:37:14	Error:	Could not find matching close tag for "<%".
+
+18/08/2024  08:37:53	Error:	Could not find matching close tag for "<%".
+
+18/08/2024  08:38:39	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/new-product.ejs:16
+    14| 
+    15|         <section class="add-product">
+ >> 16|             <h2> <% if(edit.state){echo("Add a product")} %> </h2>
+    17|             <form action="/new" method="post" enctype="multipart/form-data">
+    18|               <div>
+    19|                 <label for="name">Product name</label>
+
+echo is not defined
+
+18/08/2024  08:43:42	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/new-product.ejs:25
+    23|                 <label for="name">Product name</label>
+    24|                 <input type="text" name="name" id="name" required minlength="4" 
+ >> 25|                 <% if(edit.state) {%> value="<%= poductUpd.name %>" <%}%>
+    26|                 >
+    27|               </div>
+    28|               <div>
+
+poductUpd is not defined
+
+18/08/2024  08:43:51	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/new-product.ejs:25
+    23|                 <label for="name">Product name</label>
+    24|                 <input type="text" name="name" id="name" required minlength="4" 
+ >> 25|                 <% if(edit.state) {%> value="<%= productUpd.name %>" <%}%>
+    26|                 >
+    27|               </div>
+    28|               <div>
+
+productUpd is not defined
+
+18/08/2024  08:54:43	SyntaxError:	Unexpected token 'else' in /home/prosper/Développement Web/Shop__emulator/views/new-product.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+18/08/2024  08:54:56	SyntaxError:	Unexpected token 'else' in /home/prosper/Développement Web/Shop__emulator/views/new-product.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+18/08/2024  09:21:50	Error:	Could not find matching close tag for "<%=".
+
+18/08/2024  10:31:14	ReferenceError:	desc is not defined
+
+21/08/2024  06:14:32	ReferenceError:	categorie is not defined
+
+21/08/2024  06:14:34	ReferenceError:	categorie is not defined
+
+21/08/2024  06:15:13	ReferenceError:	categorie is not defined
+
+21/08/2024  06:16:08	TypeError:	Assignment to constant variable.
+
+21/08/2024  06:18:12	Error:	Cannot set headers after they are sent to the client
+
+21/08/2024  06:18:13	Error:	Cannot set headers after they are sent to the client
+
+22/08/2024  11:08:59	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/cart.ejs:38
+    36|             <%})%>
+    37|             <div>
+ >> 38|                 <span>Cost: <i> <%= product.price%> </i> </span>
+    39|                 <p>
+    40|                     <a href="/delcart"> <button> Empty <i class="bi bi-trash"></i> </button></a>
+    41|                     <a href="/validate"> <button>Get it</button> </a>
+
+product is not defined
+
+22/08/2024  11:09:37	ReferenceError:	/home/prosper/Développement Web/Shop__emulator/views/cart.ejs:38
+    36|             <%})%>
+    37|             <div>
+ >> 38|                 <span>Cost: <i> <%= product.totalAmount%> </i> </span>
+    39|                 <p>
+    40|                     <a href="/delcart"> <button> Empty <i class="bi bi-trash"></i> </button></a>
+    41|                     <a href="/validate"> <button>Get it</button> </a>
+
+product is not defined
+
+23/08/2024  10:35:22	SyntaxError:	Unexpected token '<' in /home/prosper/Développement Web/Shop__emulator/views/cart.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+23/08/2024  11:30:11	TypeError:	res.replace is not a function
+
+23/08/2024  12:56:52	Error:	Could not find matching close tag for "<%=".
+
+23/08/2024  12:56:52	Error:	Could not find matching close tag for "<%=".
+
+23/08/2024  12:56:52	Error:	Could not find matching close tag for "<%=".
+
+23/08/2024  12:56:52	Error:	Could not find matching close tag for "<%=".
+
+23/08/2024  12:56:52	Error:	Could not find matching close tag for "<%=".
+
+23/08/2024  12:56:52	Error:	Could not find matching close tag for "<%=".
+
+23/08/2024  12:56:52	Error:	Could not find matching close tag for "<%=".
+
+23/08/2024  12:56:52	Error:	Could not find matching close tag for "<%=".
+
+25/08/2024  01:34:45	CastError:	Cast to ObjectId failed for value "66cb18ac2c25f6c13156e4bs" (type string) at path "_id" for model "Cart"
+
+25/08/2024  04:16:51	TypeError:	Cannot destructure property 'products' of '(intermediate value)' as it is null.
+
+25/08/2024  08:56:10	TypeError:	Cannot destructure property 'products' of '(intermediate value)' as it is null.
+

@@ -1,0 +1,55 @@
+<%-include("./partials/header.ejs") %>
+<head>
+    <script src="./scripts/histo.js" defer></script>
+</head>
+<body>
+    <section class="historic">
+        <h2 class="cart-title">Histo.</h2>
+         <% userHisto.forEach((item) =>{ %>
+            <div >
+                <p>
+                     <strong>order identifier:</strong>
+                      <span class="cart-id"><%= item.cartId%> 
+                        <span class="copy-sec">
+                            <i class="bi bi-copy" title="copy"></i> 
+                            <i class="bi bi-check-square d-none"></i>
+                        </span> 
+                      </span> 
+                </p>
+                <p> 
+                    <strong>createdAt:</strong><span><%= item.createdAt %></span>
+                </p>             
+                <p>
+                    <button class="btn-more-info">More info</button>
+                    <span> <a href="/delhisto/<%= item._id%>"><button>Delete</button> </a>  </span>    
+                </p>
+            </div>
+         <% } ) %>
+   </section>
+
+<article class="search-section d-none">
+    <form class="more-info">
+        <i class="bi bi-x-circle-fill"></i>
+        <img src="./assets/images/shop.jpg" alt="shop shop shop">
+      
+            <label for="order-id">Put your order identifier here:</label>
+            <input 
+            type="text"
+            id="order-id"
+            name="cart-id" 
+            autofocus 
+            minlength="24" 
+            maxlength="24"
+            autocomplete="off"
+            required
+            >
+            
+            <button id="get-cart-info">Send</button>
+        </div>
+        <p id="histo-result"></p>
+
+    </form>
+</article>
+
+</body>
+</html>

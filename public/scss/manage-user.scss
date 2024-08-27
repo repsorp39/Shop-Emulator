@@ -1,0 +1,37 @@
+.user-manage{
+    width: 600px;
+    margin: auto;
+    @media screen and (max-width:700px) {
+       width: 90%;
+      }
+
+  
+    th{
+        background-color: $light-yellow;
+        font-family: $Outfit-Bold;
+    }
+    a{
+        all: unset;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+       
+    }
+    tr{
+        background-color:$sad-blue;
+    }
+    
+    td{
+        font-size: 18px;
+        border-collapse: collapse;
+        font-family: $Outfit-Regular;
+        padding: 5px;
+    }
+
+    caption{
+        font-size: 30px;
+        font-family: $Outfit-Light;
+        margin: 40px 0 10px 0;
+
+    }
+}

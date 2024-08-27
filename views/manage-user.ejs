@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Emulator - User Management</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <%- include("./partials/header.ejs")%>
+    <%- include ("./partials/adminNavBar.ejs") %>
+    
+    <table class="user-manage">
+        <caption>Registered Users </caption>
+        <tr>
+            <th>Pseudo</th>
+            <th>Delete user</th>
+        </tr>
+        <% registeredUsers.forEach ((user) =>{ %>
+           <tr>
+                <td> <%= user.pseudo %> </td>
+                <td> <a href="/deluser/<%= user._id %>"><i class="bi bi-trash"></i></a> </td>
+           </tr>
+
+        <%})%>
+    </table>
+    <%-include("./partials/footer.ejs") %>
+
+</body>
+</html>

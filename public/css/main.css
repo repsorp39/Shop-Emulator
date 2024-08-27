@@ -1,0 +1,905 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css);
+/*general reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+body {
+  background-color: #fff;
+}
+
+/*font-size*/
+/*border radius*/
+/*Colors*/
+/*fonts*/
+@font-face {
+  font-family: "Outfit-Black";
+  src: url(../assets/fonts/Outfit-Black.ttf);
+}
+@font-face {
+  font-family: "Outfit-Bold";
+  src: url(../assets/fonts/Outfit-Bold.ttf);
+}
+@font-face {
+  font-family: "Outfit-ExtraBold";
+  src: url(../../scss/assets/fonts/Outfit-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Outfit-Thin";
+  src: url(../assets/fonts/Outfit-Thin.ttf);
+}
+@font-face {
+  font-family: "Outfit-Light";
+  src: url(../assets/fonts/Outfit-Light.ttf);
+}
+@font-face {
+  font-family: "Outfit-Regular";
+  src: url(../assets/fonts/Outfit-Regular.ttf);
+}
+@font-face {
+  font-family: "Outfit-ExtraLight";
+  src: url(../assets/fonts/Outfit-ExtraLight.ttf);
+}
+.error {
+  color: #fff;
+  background-color: hsl(349, 71%, 52%);
+  font-weight: bold;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.disable-btn {
+  cursor: not-allowed;
+}
+
+.text-yellow {
+  color: hsl(40, 84%, 53%);
+  font-weight: bold;
+}
+
+.text-red {
+  color: hsl(349, 71%, 52%);
+  font-weight: bold;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 700px) {
+  header {
+    position: relative;
+    padding: 8px 0;
+  }
+}
+header a {
+  all: unset;
+  cursor: pointer;
+}
+header img {
+  width: 100px;
+  filter: blur(1px);
+}
+@media screen and (max-width: 700px) {
+  header img {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+header nav {
+  align-items: center;
+}
+header ul {
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+  list-style: none;
+  font-family: "Outfit-Light";
+  background-color: hsl(261, 73%, 60%);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+@media screen and (max-width: 700px) {
+  header ul {
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 300px) {
+  header ul {
+    flex-direction: column;
+    width: 200px;
+  }
+}
+header li {
+  margin-right: 25px;
+  color: #fff;
+}
+@media screen and (max-width: 300px) {
+  header li {
+    margin: 0 0 5px 0;
+  }
+}
+header button {
+  font-family: "Outfit-Regular";
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  border-radius: 15px;
+}
+header .login {
+  background-color: hsl(39, 89%, 49%);
+  color: hsl(237, 49%, 15%);
+}
+header .logout {
+  background-color: hsl(349, 71%, 52%);
+  color: hsl(237, 49%, 15%);
+}
+header .register {
+  background-color: hsl(189, 58%, 57%);
+}
+header .user-info {
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 10px;
+  font-family: "Outfit-Regular";
+  padding: 4px 15px;
+  color: hsl(237, 49%, 15%);
+  border-radius: 50px;
+  background-color: hsl(189, 58%, 57%);
+}
+header .user-info i {
+  color: hsl(217, 16%, 45%);
+}
+
+.open-close-btn {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  background-color: hsl(261, 73%, 60%);
+}
+.open-close-btn div:first-child {
+  visibility: hidden;
+}
+@media screen and (max-width: 700px) {
+  .open-close-btn div:first-child {
+    visibility: visible;
+  }
+}
+.open-close-btn i {
+  font-size: 25px;
+}
+.open-close-btn img {
+  width: 50px;
+  filter: blur(1px);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .hide-navbar {
+    display: none;
+  }
+}
+
+.form-sec {
+  margin-top: 120px;
+}
+@media screen and (max-width: 700px) {
+  .form-sec {
+    margin-top: 40px;
+  }
+}
+.form-sec h2 {
+  text-align: center;
+  font-family: "Outfit-Bold";
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 380px) {
+  .form-sec h2 {
+    font-size: 18px;
+  }
+}
+.form-sec form {
+  margin: auto;
+  width: 370px;
+  padding: 15px;
+  color: #fff;
+  background-color: hsl(237, 49%, 15%);
+}
+@media screen and (max-width: 380px) {
+  .form-sec form {
+    width: 270px;
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 200px) {
+  .form-sec form {
+    width: 100%;
+    padding: 5px;
+    margin: 0 5px;
+  }
+}
+.form-sec label {
+  display: inline-block;
+  margin-bottom: 7px;
+  color: hsl(39, 89%, 49%);
+  font-family: "Outfit-Light";
+  padding: 2px 3px;
+}
+.form-sec input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px dotted;
+  padding: 9px 5px;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+  background-color: hsl(237, 49%, 15%);
+}
+.form-sec div {
+  margin-top: 15px;
+}
+.form-sec button {
+  display: block;
+  width: 80%;
+  margin: 30px auto 0;
+  border-radius: 15px;
+  color: #fff;
+  background-color: hsl(229, 64%, 46%);
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+}
+.form-sec p {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Outfit-Thin";
+}
+.form-sec p a {
+  color: hsl(349, 71%, 52%);
+}
+.form-sec img {
+  width: 15px;
+  border-radius: 50%;
+}
+
+.admin-control {
+  margin: 40px auto 5px;
+  width: 40vw;
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-family: "Outfit-Regular";
+  background-color: hsl(237, 49%, 15%);
+}
+@media screen and (max-width: 1000px) {
+  .admin-control {
+    width: 250px;
+    line-height: 25px;
+  }
+}
+.admin-control ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1000px) {
+  .admin-control ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.admin-control a {
+  all: unset;
+  cursor: pointer;
+}
+.admin-control i:nth-child(odd) {
+  color: hsl(189, 59%, 53%);
+}
+
+.user-manage {
+  width: 600px;
+  margin: auto;
+}
+@media screen and (max-width: 700px) {
+  .user-manage {
+    width: 90%;
+  }
+}
+.user-manage th {
+  background-color: hsl(40, 84%, 53%);
+  font-family: "Outfit-Bold";
+}
+.user-manage a {
+  all: unset;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+.user-manage tr {
+  background-color: hsl(230, 89%, 65%);
+}
+.user-manage td {
+  font-size: 18px;
+  border-collapse: collapse;
+  font-family: "Outfit-Regular";
+  padding: 5px;
+}
+.user-manage caption {
+  font-size: 30px;
+  font-family: "Outfit-Light";
+  margin: 40px 0 10px 0;
+}
+
+footer {
+  padding: 10px;
+  margin-top: 55px;
+  background-color: rgb(2, 1, 54);
+  color: #fff;
+}
+footer img {
+  width: 90px;
+  height: 70px;
+  border-radius: 10px;
+  filter: blur(1px);
+}
+@media screen and (max-width: 650px) {
+  footer img {
+    width: 50px;
+    height: 40px;
+  }
+}
+footer section:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 600px) {
+  footer section:first-child {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+footer section:last-child ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 450px) {
+  footer section:last-child ul {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 1024px) {
+  footer section:last-child ul {
+    font-size: 30px;
+  }
+}
+footer section:last-child i {
+  display: block;
+}
+footer h5 {
+  font-size: 20px;
+  font-family: "Outfit-Bold";
+}
+footer ul {
+  list-style: none;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "Outfit-Regular";
+}
+footer h3 {
+  font-size: 30px;
+  font-family: "Outfit-Light";
+  text-align: center;
+  margin-bottom: 15px;
+  color: hsl(40, 84%, 53%);
+}
+@media screen and (max-width: 200px) {
+  footer h3 {
+    font-size: 15px;
+  }
+}
+footer a {
+  color: hsl(189, 59%, 53%);
+}
+
+.product-filtering {
+  display: flex;
+  justify-content: space-around;
+}
+.product-filtering input[type=search] {
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 4px;
+  font-size: 16px;
+  font-family: "Outfit-Regular";
+}
+.product-filtering .search-box {
+  width: 280px;
+  border: 1px solid;
+  margin-top: 150px;
+}
+@media screen and (max-width: 700px) {
+  .product-filtering .search-box {
+    margin-top: 30px;
+  }
+}
+.product-filtering button {
+  all: unset;
+}
+.product-filtering a {
+  color: black;
+  font-size: 25px;
+  display: block;
+}
+
+.single-product {
+  position: relative;
+  border: 1px dotted;
+  width: 300px;
+  height: 400px;
+  padding: 8px;
+  margin: 20px;
+  overflow: hidden;
+}
+@media screen and (max-width: 500px) {
+  .single-product {
+    width: 240px;
+    height: 350px;
+    padding: 0;
+  }
+}
+.single-product img {
+  width: 100%;
+  height: 260px;
+}
+@media screen and (max-width: 500px) {
+  .single-product img {
+    height: 200px;
+  }
+}
+.single-product .update {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 8px;
+}
+.single-product .prod-img {
+  position: relative;
+}
+.single-product .prod-img * {
+  display: block;
+}
+.single-product .prod-img .categorie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 14px 10px;
+  padding: 7px 10px;
+  font-family: "Outfit-Bold";
+  border-radius: 15px;
+  color: #fff;
+  background-color: hsl(237, 49%, 15%);
+}
+.single-product .prod-img .categorie + span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 14px 10px;
+  padding: 7px 10px;
+  font-family: "Outfit-Thin";
+  border-radius: 8px;
+  color: #fff;
+  background-color: rgb(73, 193, 73);
+}
+.single-product h5 {
+  font-size: 18px;
+  text-align: center;
+  margin: 8px 0;
+  font-family: "Outfit-Regular";
+}
+.single-product h5 + p {
+  font-family: "Outfit-Thin";
+  line-height: 30px;
+  text-align: justify;
+}
+@media screen and (max-width: 600px) {
+  .single-product h5 + p {
+    line-height: 20px;
+  }
+}
+.single-product button {
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  width: 50%;
+  margin: 7px;
+}
+
+.produit-sec {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 450px) {
+  .produit-sec {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.search-result {
+  font-size: 40px;
+  margin: 25px 0;
+  text-align: center;
+  font-family: "Outfit-Light";
+}
+.search-result span {
+  color: hsl(349, 71%, 52%);
+}
+@media screen and (max-width: 650px) {
+  .search-result {
+    font-size: 20px;
+  }
+}
+
+.search-result + h3 {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Outfit-Bold";
+}
+
+.no-result {
+  font-size: 38px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Outfit-Bold";
+}
+@media screen and (max-width: 650px) {
+  .no-result {
+    font-size: 20px;
+  }
+}
+.no-result span {
+  color: hsl(349, 71%, 52%);
+}
+
+.number-sec {
+  margin-top: 10px;
+}
+.number-sec strong {
+  padding: 4px 9px;
+  left: 0;
+  font-family: "Outfit-Thin";
+  border-radius: 30px;
+  background-color: hsl(237, 49%, 15%);
+  color: #fff;
+}
+.number-sec span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 8px;
+  border: double 2px hsl(237, 49%, 15%);
+  padding: 5px;
+  font-weight: bold;
+  font-family: "Outfit-Thin";
+  background-color: red;
+  cursor: pointer;
+}
+.number-sec button {
+  color: #fff;
+  background-color: hsl(261, 73%, 60%);
+  border-radius: 8px;
+}
+.number-sec .number-product {
+  display: inline-block;
+  width: 40px;
+}
+
+.bi-check-circle-fill {
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  color: green;
+}
+
+.description {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.cart-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 150px auto 0;
+  padding: 5px;
+}
+@media screen and (max-width: 700px) {
+  .cart-sec {
+    margin-top: 50px;
+  }
+}
+.cart-sec section {
+  width: 500px;
+  margin-top: 25px;
+  background-color: hsl(214, 47%, 23%);
+}
+@media screen and (max-width: 600px) and (min-width: 500px) {
+  .cart-sec section {
+    width: 400px;
+    margin: 15px 0;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  .cart-sec section {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 200px) {
+  .cart-sec section {
+    width: 90%;
+  }
+}
+.cart-sec section .p-name {
+  font-family: "Outfit-Regular";
+  text-align: center;
+  color: #fff;
+  background-color: black;
+}
+.cart-sec section img {
+  display: block;
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 200px) {
+  .cart-sec section img {
+    width: 70px;
+    height: 70px;
+  }
+}
+.cart-sec section div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+@media screen and (max-width: 500px) {
+  .cart-sec section div {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.cart-sec table,
+.cart-sec th,
+.cart-sec td {
+  text-align: center;
+  padding: 5px;
+  border-collapse: collapse;
+  border: 1px solid black;
+  color: #fff;
+}
+.cart-sec th {
+  font-family: "Outfit-Bold";
+  background-color: hsl(237, 49%, 15%);
+}
+.cart-sec td {
+  font-family: "Outfit-Thin";
+}
+.cart-sec .total-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Outfit-Thin";
+  font-size: 17px;
+  margin-top: 10px;
+}
+@media screen and (max-width: 400px) {
+  .cart-sec .total-sec {
+    font-size: 14px;
+  }
+}
+.cart-sec .total-sec span {
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  margin-right: 20px;
+  background-color: hsl(39, 89%, 49%);
+}
+.cart-sec .total-sec button {
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  margin: 0 5px;
+}
+.cart-sec .total-sec a {
+  display: block;
+}
+.cart-sec .cart-title {
+  margin-top: -40px;
+  font-size: 40px;
+  font-family: "Outfit-Bold";
+  color: gray;
+}
+@media screen and (max-width: 500px) {
+  .cart-sec .cart-title {
+    font-size: 20px;
+  }
+}
+
+.historic {
+  height: 500px;
+  overflow-y: auto;
+}
+.historic h2 {
+  margin-top: 120px;
+  font-size: 40px;
+  font-family: "Outfit-Bold";
+  text-align: center;
+  color: hsl(237, 49%, 15%);
+}
+@media screen and (max-width: 700px) {
+  .historic h2 {
+    margin-top: 40px;
+  }
+}
+.historic strong {
+  font-size: 17px;
+  font-family: "Outfit-Light";
+  padding: 3px;
+}
+.historic p {
+  margin-bottom: 10px;
+}
+.historic p:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.historic span {
+  font-family: "Outfit-Thin";
+}
+.historic div {
+  width: 500px;
+  margin: 15px auto 15px;
+  border: dotted 2px black;
+  padding: 5px;
+}
+@media screen and (max-width: 600px) and (min-width: 190px) {
+  .historic div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 190px) {
+  .historic div {
+    width: 170px;
+  }
+}
+.historic button {
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  color: #fff;
+  font-family: "Outfit-Regular";
+  background-color: hsl(237, 49%, 15%);
+}
+.historic span button {
+  background-color: hsl(349, 71%, 52%);
+}
+.historic a {
+  all: unset;
+}
+
+.more-info {
+  position: relative;
+  width: 400px;
+  margin: auto;
+  border: 1px solid;
+  padding: 15px;
+  color: #fff;
+  z-index: 10;
+  background-color: hsl(237, 49%, 15%);
+}
+@media screen and (max-width: 600px) and (min-width: 190px) {
+  .more-info {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 190px) {
+  .more-info {
+    width: 170px;
+  }
+}
+.more-info img {
+  width: 45px;
+  filter: blur(1px);
+  border-radius: 8px;
+}
+.more-info label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-family: "Outfit-Light";
+}
+.more-info input {
+  font-family: "Outfit-Thin";
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 5px;
+  width: 100%;
+}
+.more-info button {
+  display: block;
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  margin-top: 15px;
+  width: 50%;
+  color: #fff;
+  box-shadow: 1px 1px 1px #fff;
+  border-radius: 8px;
+  background-color: hsl(261, 73%, 60%);
+}
+.more-info .bi-x-circle-fill {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.hide-it {
+  filter: opacity(60%) blur(2px);
+}
+
+.search-section {
+  position: relative;
+  bottom: 230px;
+}
+
+#histo-result {
+  font-family: "Outfit-Thin";
+  margin: 5px;
+}
+
+/*# sourceMappingURL=main.css.map */

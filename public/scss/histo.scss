@@ -1,0 +1,139 @@
+.historic{
+    height: 500px;
+    overflow-y: auto;
+   
+   h2{
+    margin-top:120px;
+    font-size: 40px;
+    font-family: $Outfit-Bold;
+    text-align: center;
+    color: $rdg-blue;
+    @media screen and (max-width:700px) {
+        margin-top:40px;
+        
+    }
+   }
+
+   strong{
+    font-size: 17px;
+    font-family: $Outfit-Light;
+    padding: 3px;
+  
+   }
+   p{
+    margin-bottom: 10px;
+    &:last-child{
+        display:flex;
+        justify-content: space-between;
+        margin: 5px 0;
+    }
+    
+   }
+   span{
+    font-family: $Outfit-Thin;
+   }
+
+   div{
+    width: 500px;
+    margin: 15px auto 15px;
+    border: dotted 2px black;
+    padding: 5px;
+    @media screen and (max-width:600px)  and (min-width:190px) {
+        width: 90%;
+    }
+     @media screen and (max-width:190px)   {
+        width: 170px;
+    }
+   }
+
+   button{
+    @include btn-general;
+    color:$white;
+    font-family: $Outfit-Regular;
+    background-color:$rdg-blue;
+   }
+
+   span {
+    button{
+        background-color: $Rock-red;
+    }
+   }
+
+   a{
+    all: unset;
+   }
+}
+
+.more-info{
+    position: relative;
+    width: 400px;
+    margin: auto;
+    border: 1px solid ;
+    padding: 15px;
+    color: $white;
+    z-index: 10;
+    background-color: $rdg-blue;
+    @media screen and (max-width:600px)  and (min-width:190px) {
+        width: 90%;
+    }
+     @media screen and (max-width:190px)   {
+        width: 170px;
+    }
+    img{
+        width: 45px;
+        filter: blur(1px);
+        border-radius: $min-radius;
+    }
+
+    label{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-family: $Outfit-Light;
+    }
+
+    input{
+        font-family: $Outfit-Thin;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    button{
+        display: block;
+        @include btn-general;
+        margin-top: 15px;
+        width: 50%;
+        color: $white;
+        box-shadow: 1px 1px 1px $white;
+        border-radius: $min-radius;
+        background-color: $Lizard-Purple;
+    }
+    .bi-x-circle-fill{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 25px;
+        text-shadow: 1px 1px 1px $white;
+
+    }
+}
+
+
+.hide-it{
+    filter:opacity(60%) blur(2px);
+
+}
+
+.search-section{
+  position: relative;
+  bottom: 230px;
+}
+
+#histo-result{
+    font-family: $Outfit-Thin;
+    margin: 5px;
+}
+

@@ -1,0 +1,35 @@
+.admin-control{
+    margin: 40px auto 5px;
+    width: 40vw;
+    color: $white;
+    padding: 8px 10px;
+    border-radius: $min-radius;
+    font-family: $Outfit-Regular;
+    background-color: $rdg-blue;
+    @media screen and (max-width:1000px) {
+        width: 250px;
+        line-height: 25px;
+    }
+   
+
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+         @media screen and (max-width:1000px) {
+           flex-direction: column;
+           text-align: center;
+          
+    }
+    }
+    a{
+        all: unset;
+        cursor: pointer;
+    }
+
+    i{
+        &:nth-child(odd){
+            color:$Cyan
+        }
+    }
+}

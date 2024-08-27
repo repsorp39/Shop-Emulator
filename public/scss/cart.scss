@@ -1,0 +1,119 @@
+.cart-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 150px auto 0;
+    padding: 5px;
+    @media screen and (max-width:700px) {
+            margin-top: 50px;
+    }
+
+
+    section {
+        width: 500px;
+        margin-top: 25px;
+        background-color: $RadiaGradient;
+        @media screen and (max-width:600px) and (min-width:500px) {
+            width:400px;
+            margin: 15px 0;
+            }
+            @media screen and (max-width:500px)and (min-width:200px) {
+                width: 300px;
+            }
+            @media screen and (max-width:200px) {
+                width:90%;
+            }
+
+        .p-name {
+            font-family: $Outfit-Regular;
+            text-align: center;
+            color: $white;
+            background-color: black;
+        }
+
+        img {
+            display: block;
+            width: 100px;
+            height: 90px;
+            border-radius: 50%;
+            @media screen and (max-width:200px) {
+                width:70px;
+                height: 70px;
+            }
+        }
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            @media screen and (max-width:500px) {
+               justify-content: center;
+               flex-direction: column;
+               align-items: center;
+                }
+        }
+    }
+
+    table,
+    th,
+    td {
+        text-align: center;
+        padding: 5px;
+        border-collapse: collapse;
+        border: 1px solid black;
+        color: $white;
+
+    }
+
+    th {
+        font-family: $Outfit-Bold;
+        background-color: $rdg-blue;
+
+    }
+
+    td {
+        font-family: $Outfit-Thin;
+
+    }
+
+    .total-sec {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: $Outfit-Thin;
+        font-size: 17px;
+        margin-top: 10px;
+        @media screen and (max-width:400px)  {
+            font-size: 14px;
+        }
+        
+
+        span {
+            @include btn-general;
+            margin-right: 20px;
+            background-color: $dark-yellow
+        }
+
+        button {
+            @include btn-general;
+            margin: 0 5px;
+        }
+        a{
+            display: block;
+        }
+
+    }
+
+    .cart-title {
+        margin-top: -40px;
+        font-size: 40px;
+        font-family: $Outfit-Bold;
+        color: gray;
+        @media screen and (max-width:500px) {
+            font-size: 20px;
+
+    }
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Emulator</title>
+    <link rel="stylesheet" href="./css/product.css">
+
+</head>
+<body>
+    <%-include('./partials/header.ejs')%>
+      <!--Admin nav control -->
+        <%-include ("./partials/adminNavBar.ejs")%>
+
+        <section class="add-product">
+          <% if(!edit.state) { %> 
+              <h2>Add a new product </h2>
+               <%}else { %>
+            <h2>Update product </h2>
+            <%}%>
+            <form action="/new" method="post" enctype="multipart/form-data">
+              <div>
+                <label for="name">Product name</label>
+                <input type="text" name="name" id="name" required minlength="4" maxlength="40"
+                <% if(edit.state) {%> value="<%= edit.product.name %>" <%}%>
+                >
+              </div>
+              <div>
+                <label for="categorie">Categorie</label>
+                <input type="text" id="categorie" name="categorie" required minlength="3" maxlength="12"
+                <% if(edit.state) {%> value="<%= edit.product.categorie %>" <%}%>
+
+                >
+              </div>
+              <div>
+                <label for="price">Price</label>
+                <input type="number" id="price" name="price" min="0" required
+                <% if(edit.state) {%> value="<%= edit.product.price %>" <%}%>
+
+                >
+              </div>
+              <div>
+                <label for="desc">Description</label>
+                <input type="text" id="desc" name="description" required minlength="10" maxlength="100"
+                <% if(edit.state) {%> value="<%= edit.product.description %>" <%}%>
+
+                >
+                <% if(edit.state) {%> <input name="id" type="hidden"  value="<%= edit.product._id%>"> <%}%>
+
+              </div>
+                <% if(!edit.state) {%>
+                <div>
+                  <label for="picture">Product picture</label>
+                  <input type="file" id="picture" name="picture" required accept="image/*" >
+                </div>
+
+              <%}%>
+                <% if(!edit.state) { %> <button>Add product</button> <%}
+                else{ %> <button name="editState" value="edit">Update product</button> <%}%></button>
+            </form>
+        </section>
+        <%-include("./partials/footer.ejs") %>
+
+</body>
+</html>

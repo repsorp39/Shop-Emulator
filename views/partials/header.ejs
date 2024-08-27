@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Shop Emulator</title>
+    <script src="./scripts/navbar.js" defer></script>
+</head>
+<body>
+    <div class="open-close-btn">
+       <div>
+        <i class="bi bi-list"></i>
+        <i class="bi bi-x d-none"></i>
+       </div>
+       <div>
+            <img src="./assets/images/shop.jpg" alt="">
+       </div>
+    </div>
+    <header class="hide-navbar">
+        <div> <img src="./assets/images/shop.jpg" > </div>
+        <% if(user.pseudo) {  %>    
+            <div class="user-info"> <span> Welcome <%= user.pseudo %> <i class="bi bi-emoji-heart-eyes-fill"></i></span></div>
+         <% } %>
+        <nav> 
+            <ul>
+                <li><a href="/">Products</a></li>
+                <li><a href="/cart">Cart<i class="bi bi-cart"></i></a></li>
+                <li><a href="/histo">Histo.<i class="bi bi-clock-history"></i></a></li>
+            </ul>
+        </nav>
+        <div>
+            <% if (user.pseudo) { %>
+                <a href="/logout"><button class="logout">Log out</button>  </a>
+            <% } else {
+                if(user.location ==="/login") {
+            %>
+            <a href="/signup"> <button class="register">Register</button></a>
+            <%} else{%>
+                <a href="/login"> <button class="login">Log in</button></a>
+                <%}%>
+            <% }%>
+        </div>
+    </header>
+
+</body>
+</html>

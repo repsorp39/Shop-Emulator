@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Emulator - Cart</title>
+    <script src="./scripts/cart.js" defer></script>
+  </head>
+  <body>
+    <%-include("./partials/header.ejs") %>
+
+<body>
+      <article class="cart-sec">
+          <% if(!cartInfo.success){ %>
+            <div class="cart-title">Your cart is empty</div>
+          <%} else{ %>
+            <h1 class="cart-title">My Cart</h1>
+            <%
+            cartInfo.data.forEach((product) => { %>
+
+            <section>
+              <p class="p-name"><%= product.name%></p>
+              <div>
+                <img src="<%= product.src%>" alt="<%= product.name%>">
+                <table>
+                  <tr>
+                    <th>Qte</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                  </tr>
+                  <tr>
+                      <td> <%=product.numberBought %> </td>
+                      <td> <%=product.price %> $</td>
+                      <td> <%=product.total %> $</td>
+                  </tr>
+                </table>
+              </div>
+            </section>
+            <%})%>
+            <div class="total-sec">
+                    <span> Total is: <strong> <%=cartInfo.totalAmount%> $</strong> </span>
+                    <a href="/cart/<%=cartInfo.cartId %>?action=del"> <button> Empty <i class="bi bi-trash"></i> </button></a>
+                    <a href="/cart/<%=cartInfo.cartId %>?action=get&montant=<%=cartInfo.totalAmount%>"> <button>Get it</button> </a> 
+            <div>
+         <% }%>
+         
+      </article>
+</body>
+</html>

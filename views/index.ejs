@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Emulator</title>
+    <script src="./scripts/cart.js" defer></script>
+  </head>
+  <body>
+    <%-include("./partials/header.ejs") %>
+
+    <section class="product-filtering">
+      <form class="search-box" method="post" action="/search">
+        <input
+          name="q"
+          type="search"
+          placeholder="What are you looking for.. ?"
+          minlength="3"
+          required
+        />
+        <button type="submit"><i class="bi bi-search"></i></button>
+      </form>
+    </section>
+        <!--Admin nav control -->
+        <% if(user.isAdmin){ %> <%-include ("./partials/adminNavBar.ejs")%> <%} %>
+
+    <!--Case where user make some product search-->
+    <% if(queryInfo.name){ if(queryInfo.success){ %>
+    <h2 class="search-result">
+      Research results for <span>"<%=queryInfo.name%>"</span> (
+      <%=queryInfo.resultsNumber%> )
+    </h2>
+
+    <%} else {%>
+    <h2 class="no-result">
+      No results found for <span> "<%=queryInfo.name%>"</span>
+    </h2>
+
+    <%}%> <%}%>
+
+    <article class="produit-sec">
+      <% products.forEach(product => { %>
+      <div class="single-product">
+        <p class="prod-img">
+          <img src="<%=product.src %>" alt="<%=product.name%>" />
+          <span class="categorie"><%=product.categorie%></span>
+          <span><%=product.price%> $</span>
+        </p>
+
+        <h5><%=product.name%></h5>
+        <p class="description"><%=product.description %></p>
+
+        <button class="add-to-cart" data-id="<%= product._id%>">
+          Add to cart <i class="bi bi-cart"></i>
+        </button>
+
+        <% if(user.isAdmin){%>
+        <span class="update">
+          <a href="/new?upd=<%=product._id%>"><i class="bi bi-pencil"></i></a>
+        </span>
+        <%}%>
+        <p class="number-sec d-none">
+          <strong>
+            <i class="bi bi-dash"></i>
+            <strong class="number-product">00</strong>
+            <i class="bi bi-plus"></i>
+          </strong>
+
+          <span class="cancel">Cancel</span>
+          <button class="confirm-shop disable-btn">Add</button>
+        </p>
+        <i class="bi bi-check-circle-fill d-none"></i>
+
+      </div>
+
+      <%})%>
+    </article>
+    <%-include("./partials/footer.ejs") %>
+  </body>
+</html>

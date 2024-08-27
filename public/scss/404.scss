@@ -1,0 +1,8 @@
+@import "./partials/settings";
+body{
+    display: grid;
+    place-content: center;
+    min-height: 80vh;
+    font-size: $big;
+    font-family: $Outfit-ExtraBold;
+}

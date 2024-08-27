@@ -1,0 +1,128 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    align-items: center;
+    background-color: $white;
+    @media screen and (max-width:700px) {
+        position: relative;
+        padding: 8px 0;
+     
+    }
+
+    a{
+        all: unset;
+        cursor: pointer;
+    }
+    img{
+        width:100px;
+        filter: blur(1px);
+        @media screen and (max-width:700px) {
+           display: none;
+            
+        }
+    }
+    @include basic-flex;
+    @media screen and (max-width:700px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    nav{
+     
+        align-items: center
+    }
+    ul{
+        @include basic-flex;
+        margin-right: 20px;
+        list-style: none;
+        font-family: $Outfit-Light;
+        background-color: $Lizard-Purple;
+        border-radius: $min-radius ;
+        padding: 8px 10px;
+        @media screen and (max-width:700px) {
+           margin:15px 0;
+        }
+        @media screen and (max-width:300px) {
+            flex-direction: column;   
+            width:200px;
+         }
+    }
+
+    li{
+        margin-right: 25px;
+        color: $white;
+        @media screen and (max-width:300px) {
+            margin: 0 0 5px 0;
+
+         }
+       
+    }
+
+    button{
+        font-family: $Outfit-Regular;
+        @include btn-general;
+        border-radius: $avg-radius;
+    }
+    .login{  
+        background-color: $dark-yellow;
+        color:$rdg-blue;
+    }
+    .logout{
+        background-color: $Rock-red;
+        color:$rdg-blue;
+    }
+
+    .register{
+        background-color: $sad-cyan;
+    }
+
+    .user-info{
+            text-align: center;
+            font-size: $large;
+            padding: 8px 10px;
+            font-family: $Outfit-Regular;
+            padding: 4px 15px;
+            color: $rdg-blue;
+            border-radius: 50px;
+            background-color: $sad-cyan;
+        
+            i{
+                color: $HeaderOutline;
+            }
+    }
+}
+
+.open-close-btn{
+    display: flex;
+    justify-content: space-between;
+    div{
+        &:first-child{
+            visibility: hidden;
+            @media screen and (max-width:700px) {
+                visibility: visible;
+               }
+        }
+    }
+   
+    padding: 7px;
+    background-color:$Lizard-Purple;
+    i{
+        font-size: 25px;
+    }
+    img{
+        width: 50px;
+        filter: blur(1px);
+        border-radius: 5px;
+    }
+}
+
+.hide-navbar{
+    @media screen and (max-width:700px) {
+        display: none;
+        
+    }
+}

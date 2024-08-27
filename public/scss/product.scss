@@ -1,0 +1,50 @@
+@import "./partials/settings";
+.add-product{
+
+    h2{
+        text-align: center;
+        font-family: $Outfit-Regular;
+        margin: 40px 0 10px 0;
+        font-size: 25px;
+        @media screen and (max-width:420px) {
+          font-size: 18px;
+
+        }
+    }
+  form{
+    margin:10px auto 30px;
+    width: 370px;
+    padding: 15px;
+    color: $white;
+    background-color: $DarkText;
+    @media screen and (max-width:420px) {
+      width: 90%;
+      padding: 5px;
+    }
+  }
+
+  label{
+    display: inline-block;
+    margin-bottom: 7px;
+    font-family: $Outfit-Light;
+    padding: 2px 3px;
+  }
+  input {
+    width: 100%;
+    padding: 9px 5px ;
+    outline: none;
+  }
+div{
+    margin-top: 15px;
+}
+button{
+    display: block;
+    width: 80%;
+    margin: 30px auto 0;
+    border-radius: $avg-radius;
+    color: $white;
+    background-color: $ScoreText;
+    @include btn-general;
+}
+
+}
