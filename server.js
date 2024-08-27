@@ -7,7 +7,7 @@ const app = express();
 const cookieParser = require("cookie-parser");
 const dbConnect = require("./config/dbConnect");
 const mongoose = require("mongoose");
-const port = process.env.port || 8080;
+const port = process.env.PORT || 8080;
 
 //connect to db
 dbConnect();
